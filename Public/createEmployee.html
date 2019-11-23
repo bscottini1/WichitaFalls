@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Create Employee</h1>
+    <form id="employee-form">
+        <input type="number" placeholder="Employee ID (5 digits)" id="employeeID" maxlength="5" required/>
+        <input type="text" placeholder="Last Name" id="lastName" required/> 
+        <input type="text" placeholder="First Name" id="firstName" required/>
+        <input type="text"placeholder="Job Title" id="jobTitle" required/>
+        <input type="date" placeholder="Hire Date (YYYY/MM/DD" id="hireDate" pattern="yyyy/mm/dd" required/>
+        <input type="text" placeholder="Status = Active (true/false)" id="status" required />
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
